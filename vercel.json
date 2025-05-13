@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/bevestig",
+      "methods": ["GET"],
+      "dest": "/api/bevestig.js"
+    }
+  ]
+}
