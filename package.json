@@ -1,6 +1,0 @@
-{
-  "name": "rentman-bevestiging",
-  "version": "1.0.0",
-  "main": "api/bevestig.js",
-  "license": "MIT"
-}
