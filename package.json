@@ -7,10 +7,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-signature-canvas": "^1.0.6",
-    "lucide-react": "^0.292.0"
+    "next": "^13.0.0",         // Next.js
+    "react": "^18.0.0",        // React
+    "react-dom": "^18.0.0",    // ReactDOM
+    "react-signature-canvas": "^1.0.0",  // Voor handtekeningveld
+    "lucide-react": "^0.1.0"   // Voor het gebruik van iconen zoals CheckCircle
+  },
+  "devDependencies": {
+    "typescript": "^4.4.0",    // Als je TypeScript gebruikt
+    "eslint": "^7.0.0",        // Voor linting
+    "prettier": "^2.3.0"       // Voor code formatting
+  },
+  "engines": {
+    "node": ">=14.0.0",         // Zorg ervoor dat de Node.js versie minimaal 14 is
+    "npm": ">=7.0.0"            // Zorg ervoor dat npm versie minimaal 7 is
   }
 }
